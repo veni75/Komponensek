@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2018 by veni75 (http://jsbin.com/wuvibeg/2/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+<meta name="description" content="felső navigáció">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+<style id="jsbin-css">
+/* ==== GENERAL STYLES ==== */
+
+* {
+  box-sizing: border-box;
+}
+
+/* ==== A SIMPLE TOP NAVIGATION ==== */
+nav {
+  font-size: 0;
+}
+nav ul {
+  background-color: #eee;
+  text-align: center;
+}
+nav li {
+  font-family: 'Anton', sans-serif;
+  font-size: 1.4rem;
+  line-height: 3rem;
+  height: 3rem;
+  border-bottom: 1px solid #ccc;
+}
+nav a {
+  text-decoration: none;
+  color: #C74F78;
+  display: block;
+}
+nav a:hover {
+  background-color: #fff;
+  transition: background-color .3s ease-in-out;
+}
+nav a.active {
+  background-color: #c74f78;
+  color: #eee;
+}
+@media (min-width: 600px) {
+
+  nav li {
+    display: inline-block;
+    border-bottom: none;
+    width: 7.5rem;
+  }
+
+}
+
+</style>
+</head>
+<body>
+<nav>
+  <ul>
+    <li><a href="#" class="active">Home</a></li>
+    <li><a href="#">News</a></li>
+    <li><a href="#">Blog</a></li>
+    <li><a href="#">About us</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+</body>
+</html>
